@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: multi-platform-suite-component-ftrt
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/multi-platform-build-tenant/multi-platform-suite-application-twev/multi-platform-suite-component-ftrt@sha256:03cf14a09087e44f580c18cc43aa3f3bc23c239899ff9e5a7b9152c855b646ff
         name: my-go
         ports:
         - containerPort: 8081
